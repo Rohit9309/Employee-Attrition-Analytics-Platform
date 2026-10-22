@@ -1,0 +1,49 @@
+{
+  "best_model": "Random Forest",
+  "target": "LeftCompany",
+  "positive_label": "Yes",
+  "features": [
+    "Age",
+    "Gender",
+    "Department",
+    "Designation",
+    "EducationQualification",
+    "MonthlySalary",
+    "YearsWithCompany",
+    "YearsInRole",
+    "AppraisalRating",
+    "TrainingHours",
+    "DoesOvertime",
+    "JobSatisfaction",
+    "WorkLifeBalance",
+    "MaritalStatus",
+    "PreviousCompanies",
+    "DistanceFromHome",
+    "LeavesTaken",
+    "City",
+    "JoiningYear"
+  ],
+  "categorical_features": [
+    "Gender",
+    "Department",
+    "Designation",
+    "EducationQualification",
+    "DoesOvertime",
+    "MaritalStatus",
+    "City"
+  ],
+  "numeric_features": [
+    "Age",
+    "MonthlySalary",
+    "YearsWithCompany",
+    "YearsInRole",
+    "AppraisalRating",
+    "TrainingHours",
+    "JobSatisfaction",
+    "WorkLifeBalance",
+    "PreviousCompanies",
+    "DistanceFromHome",
+    "LeavesTaken",
+    "JoiningYear"
+  ]
+}
